@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "name": "0.45%NSS",
+      "unit": "bag",
+      "location": "E5-25"
+    },
+    {
+      "name": "20% Mannitol inj",
+      "unit": "vial",
+      "location": "ยาใน"
+    },
+    {
+      "name": "Acetazolamide 250 mg",
+      "unit": "tab",
+      "location": "A4-31"
+    },
+    {
+      "name": "Allopurinol 100 mg",
+      "unit": "tab",
+      "location": "B1-18"
+    },
+    {
+      "name": "Amikacin inj (500mg/2ml)",
+      "unit": "amp",
+      "location": "E1-32"
+    },
+    {
+      "name": "Aminophylline 250 mg",
+      "unit": "amp",
+      "location": "E1-61"
+    },
+    {
+      "name": "Amlodipine 10 mg",
+      "unit": "tab",
+      "location": "B724"
+    },
+    {
+      "name": "Amphotericin inj (50mg)",
+      "unit": "amp",
+      "location": "G2-25"
+    },
+    {
+      "name": "Captopril 25 mg",
+      "unit": "tab",
+      "location": "A4-47"
+    },
+    {
+      "name": "Cefazolin inj (1 g)",
+      "unit": "amp",
+      "location": "E1-42"
+    },
+    {
+      "name": "Ceftazidime (1 g)",
+      "unit": "amp",
+      "location": "E6-32"
+    },
+    {
+      "name": "Dexamethasone 4 mg",
+      "unit": "amp",
+      "location": "A5-32"
+    },
+    {
+      "name": "Diazepam 5 mg",
+      "unit": "tab",
+      "location": "A3-22"
+    },
+    {
+      "name": "Dilantin 50 mg",
+      "unit": "tab",
+      "location": "B5-23"
+    },
+    {
+      "name": "Dorner 20 mcg",
+      "unit": "tab",
+      "location": "-"
+    },
+    {
+      "name": "Favipiravir 200 mg",
+      "unit": "tab",
+      "location": "B6-45"
+    },
+    {
+      "name": "Fluimucil inj (300mg)",
+      "unit": "amp",
+      "location": "E1-54"
+    },
+    {
+      "name": "Furosemide 40 mg",
+      "unit": "tab",
+      "location": "B2-37"
+    },
+    {
+      "name": "Gentamicin (80mg/2ml)",
+      "unit": "amp",
+      "location": "A5-73"
+    },
+    {
+      "name": "Genteal eye drop",
+      "unit": "bot",
+      "location": "ยาใน"
+    },
+    {
+      "name": "HCTZ 25 mg",
+      "unit": "tab",
+      "location": "B2-36"
+    },
+    {
+      "name": "Hydralazine 25 mg",
+      "unit": "tab",
+      "location": "B7-42"
+    },
+    {
+      "name": "INH 100 mg",
+      "unit": "tab",
+      "location": "B6-11"
+    },
+    {
+      "name": "L-Thyroxin 100 mcg",
+      "unit": "tab",
+      "location": "B4-22"
+    },
+    {
+      "name": "Metoclopramide inj. (10mg/2ml)",
+      "unit": "amp",
+      "location": "A5-15"
+    },
+    {
+      "name": "Mydriacyl",
+      "unit": "bot",
+      "location": "ยาใน"
+    },
+    {
+      "name": "Phenobarbital gr.1",
+      "unit": "tab",
+      "location": "A1-67"
+    },
+    {
+      "name": "Phenylephrine eye drop",
+      "unit": "bot",
+      "location": "-"
+    },
+    {
+      "name": "Premarin Cream 0.625 mg",
+      "unit": "tab",
+      "location": "A4-56"
+    },
+    {
+      "name": "Propanolol 10 mg",
+      "unit": "tab",
+      "location": "B3-32"
+    },
+    {
+      "name": "Ranitidine 150 mg",
+      "unit": "tab",
+      "location": "-"
+    },
+    {
+      "name": "Rifampicin 300 mg",
+      "unit": "tab",
+      "location": "B6-12"
+    },
+    {
+      "name": "SWI",
+      "unit": "ml",
+      "location": "A5-11"
+    },
+    {
+      "name": "Sidegra 50 mg",
+      "unit": "tab",
+      "location": "B2-54"
+    },
+    {
+      "name": "Solu-medrol (1 g)",
+      "unit": "vial",
+      "location": "E1-66"
+    },
+    {
+      "name": "Spironolactone 100 mg",
+      "unit": "tab",
+      "location": "B2-48"
+    },
+    {
+      "name": "Tamiflu 75 mg",
+      "unit": "tab",
+      "location": "A2-64"
+    },
+    {
+      "name": "Ursolin 250 mg",
+      "unit": "tab",
+      "location": "B1-63"
+    },
+    {
+      "name": "Vancomycin (500mg)",
+      "unit": "vial",
+      "location": "E1-48"
+    },
+    {
+      "name": "Vit C",
+      "unit": "tab",
+      "location": "A3-55"
+    },
+    {
+      "name": "Zinc 25 mg",
+      "unit": "tab",
+      "location": "A3-66"
+    }
+  ]
+}

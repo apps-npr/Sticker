@@ -1,0 +1,43 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:system-ui,-apple-system,'Segoe UI',Tahoma,sans-serif;color:#222}
+header{position:sticky;top:0;background:#fff8e6;border-bottom:1px solid #f1d89b;padding:8px 12px;z-index:2}
+header h1{margin:0;font-size:18px}
+.container{display:grid;grid-template-columns:320px 1fr;gap:12px;padding:12px}
+@media (max-width:800px){.container{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid #eee0b3;border-radius:10px;padding:12px;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+label{font-size:13px;color:#555;display:block;margin:6px 0 4px}
+input[type="text"],input[type="date"],input[type="number"],select{width:100%;padding:8px 10px;border:1px solid #d8d8d8;border-radius:8px;font-size:14px}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.controls .full{grid-column:1 / -1}
+button{cursor:pointer;border:0;border-radius:8px;padding:10px 12px;font-weight:600}
+button.primary{background:#ffd166}
+button.accent{background:#95d5b2}
+button.danger{background:#f4978e;color:#333}
+button.ghost{background:#f1f1f1}
+.drug-list{max-height:320px;overflow:auto;border:1px solid #e6e6e6;border-radius:8px;padding:6px}
+.drug-item{display:flex;align-items:center;gap:8px;padding:6px;border-bottom:1px dashed #eee}
+.drug-item:last-child{border-bottom:0}
+
+#printArea{display:grid;grid-template-columns:repeat(auto-fill,minmax(8.6cm,1fr));gap:8px;align-content:start}
+
+.sticker{position:relative;border:1px dashed #ccc;background:#fff;width:8.5cm;height:4.5cm;padding:.6cm .6cm .5cm .6cm;display:flex;flex-direction:column;justify-content:center}
+.sticker.size-large{height:6.0cm}
+/* text sizes */
+.sticker .drug{font-size:22pt;font-weight:700;line-height:1.2;margin:0 0 .25cm 0;word-break:break-word}
+.sticker.size-large .drug{font-size:26pt}
+.sticker .row{font-size:14pt;line-height:1.15}
+.sticker.size-large .row{font-size:16pt}
+/* Location as bold text (no box) */
+.loc{position:absolute;top:.35cm;right:.35cm;font-size:12pt;font-weight:700;padding:0;background:none;border:0}
+
+.sticker .toolbar{position:absolute;left:.35cm;top:.35cm;display:flex;gap:6px}
+.sticker .toolbar button{padding:6px 8px;border-radius:6px}
+
+@media print{
+  header,.no-print,.controls-pane{display:none!important}
+  body{margin:0}
+  #printArea{gap:0}
+  .sticker{border:0;page-break-inside:avoid}
+}
+.print-root{padding:0;margin:0}
+.print-grid{display:grid;grid-template-columns:1fr;gap:0}
