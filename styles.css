@@ -28,7 +28,7 @@ button.ghost{background:#f1f1f1}
 .sticker .row{font-size:17pt;line-height:1.15}
 .sticker.size-large .row{font-size:20pt}
 /* Location as bold text (no box) */
-.loc{position:absolute;top:.2cm;right:.35cm;font-size:13pt;font-weight:700;padding:0;background:none;border:0}
+.loc{position:absolute;top:.1cm;right:.35cm;font-size:13pt;font-weight:700;padding:0;background:none;border:0}
 
 .sticker .toolbar{position:absolute;left:.35cm;top:.35cm;display:flex;gap:6px}
 .sticker .toolbar button{padding:6px 8px;border-radius:6px}
