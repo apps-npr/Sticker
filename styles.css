@@ -20,10 +20,10 @@ button.ghost{background:#f1f1f1}
 
 #printArea{display:grid;grid-template-columns:repeat(auto-fill,minmax(8.6cm,1fr));gap:8px;align-content:start}
 
-.sticker{position:relative;border:1px dashed #ccc;background:#fff;width:8.5cm;height:4.5cm;padding:.6cm .6cm .5cm .6cm;display:flex;flex-direction:column;justify-content:center}
+.sticker{position:relative;border:1px dashed #ccc;background:#fff;width:8.5cm;height:4.5cm;padding:.8cm .6cm .5cm .6cm;display:flex;flex-direction:column;justify-content:center}
 .sticker.size-large{height:6.0cm}
 /* text sizes */
-.sticker .drug{font-size:20pt;font-weight:700;line-height:1.2;margin:0 0 .25cm 0;word-break:break-word}
+.sticker .drug{font-size:19pt;font-weight:700;line-height:1.2;margin:0 0 .25cm 0;word-break:break-word}
 .sticker.size-large .drug{font-size:24pt}
 .sticker .row{font-size:17pt;line-height:1.15}
 .sticker.size-large .row{font-size:20pt}
