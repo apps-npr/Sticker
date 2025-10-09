@@ -76,7 +76,7 @@ addBtn.addEventListener('click', () => {
 function addSticker({ name, unit, location, lot, exp, size, qtyMed }){
   const div = document.createElement('div');
   div.className = 'sticker ' + (size === 'large' ? 'size-large' : '');
-  const qtyLine = unit ? `${qtyMed} ${unit}` : `${qtyMed}`;
+  const qtyLine = unit ? `จำนวน ${qtyMed} ${unit}` : `${qtyMed}`;
   div.innerHTML = `
     <div class="toolbar no-print">
       <button class="ghost" onclick="this.closest('.sticker').remove()">ลบ</button>
