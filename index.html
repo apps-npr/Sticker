@@ -9,13 +9,13 @@
 </head>
 <body>
   <header class="no-print">
-    <h1>พิมพ์สติกเกอร์ยา • ใช้ Location จาก Excel + แสดงจำนวนยา</h1>
+    <h1>พิมพ์สติกเกอร์ยา</h1>
   </header>
 
   <div class="container">
     <div class="card controls-pane">
       <label for="search">ค้นหารายการยา (ส่วนผสม)</label>
-      <input id="search" type="text" placeholder="พิมพ์ชื่อส่วนผสม เช่น Acetazolamide 250 mg">
+      <input id="search" type="text" placeholder="พิมพ์ชื่อ">
 
       <div class="drug-list" id="drugList" aria-label="drug list"></div>
 
@@ -36,7 +36,7 @@
           </select>
         </div>
         <div>
-          <label for="qtyMed">จำนวนยา (เอาไปพิมพ์บรรทัดล่างสุด)</label>
+          <label for="qtyMed">จำนวนยา</label>
           <input id="qtyMed" type="number" min="1" value="1">
         </div>
         <div class="full" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:6px;">
